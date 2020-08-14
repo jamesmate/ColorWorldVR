@@ -2,6 +2,9 @@
 ColorWorld is a relaxing virtual reality game built in Unity where the player explores an infinite procedurally generated rolling landscape with the company of little balls of light. These balls of light can be conducted via a combination of the gaze of the headset and the joypad.
 The idea of the project was to create a unique, interesting and relaxing VR experience and was an experiment with perlin noise.
 
+Gameplay Video:
+https://vimeo.com/user121406196/review/447976823/43c8ab914a
+
 ![alt text](/4.png)
 
 - Explore an infinite landscape and discover different alien structures.
