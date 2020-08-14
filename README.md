@@ -8,6 +8,6 @@ The idea of the project was to create a unique, interesting and relaxing VR expe
 - Change the RGB colour of the world to your liking.
 - Procedurally animated and generated alien snakes!
 - Put on some music and conduct the lights around you with your gaze and controller!
-![alt text](/6.png) ![alt text](/1.png)) ![alt text](/3.png)
+![alt text](/6.png) ![alt text](/1.png)) 
 ![alt text](/5.png)
 
