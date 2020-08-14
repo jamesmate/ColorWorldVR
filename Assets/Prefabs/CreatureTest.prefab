@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1927104873
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1927104875}
+  - component: {fileID: 1927104874}
+  - component: {fileID: 1927104876}
+  m_Layer: 0
+  m_Name: CreatureTest
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1927104875
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1927104873}
+  m_LocalRotation: {x: 0, y: 0.5641748, z: 0, w: 0.82565546}
+  m_LocalPosition: {x: 0, y: 162.1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 68.69, z: 0}
+--- !u!114 &1927104874
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1927104873}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f01eef259046e9144972cf3b7b2abcf8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  headPrefab:
+  - {fileID: 3036942768749551399, guid: 0c49536640f0e84499e6006a030132d1, type: 3}
+  bodyPrefab:
+  - {fileID: 150821812428741930, guid: e6889280970eecb479b5b50794292331, type: 3}
+  - {fileID: 3300403259856986481, guid: 3566433c464d3b643a266f8f212bae69, type: 3}
+  - {fileID: 3300403259856986481, guid: 3566433c464d3b643a266f8f212bae69, type: 3}
+  tailPrefab:
+  - {fileID: 2871021677013588477, guid: 70790a731fd5a1a4c898301a743e7ab0, type: 3}
+--- !u!114 &1927104876
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1927104873}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b12efa6cb0eb1846821472b2fb22a7e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  snakeColour: {r: 0, g: 0, b: 0, a: 0}

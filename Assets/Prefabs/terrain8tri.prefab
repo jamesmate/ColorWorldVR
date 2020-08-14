@@ -1,0 +1,125 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5064542964502505838
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1245493776193516634}
+  - component: {fileID: 1389070169662298026}
+  - component: {fileID: 8665291288398183538}
+  - component: {fileID: 296989981989938366}
+  - component: {fileID: 8208122797424810247}
+  m_Layer: 0
+  m_Name: terrain8tri
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &1245493776193516634
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5064542964502505838}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 2.5, y: 1, z: 2.5}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &1389070169662298026
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5064542964502505838}
+  m_Mesh: {fileID: 4300000, guid: 3e92310ff06241e4c824a5b2ccb3fd6a, type: 3}
+--- !u!23 &8665291288398183538
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5064542964502505838}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: e21dd218ea9827c48897d746716febee, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!114 &296989981989938366
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5064542964502505838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f140a7cc961dd74588a5faaebc47fbf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  structures:
+  - {fileID: 956127970, guid: b441cf209172ef540b65738ae2b24719, type: 3}
+  - {fileID: 1674381937, guid: 6ead6b5df7675274ca5e0cbe9a6ce204, type: 3}
+  - {fileID: 7621271481761138165, guid: a73bd0247bcc81b468f366100d2b5670, type: 3}
+  - {fileID: 500721603, guid: fb32a2a6802cb034285e3c58aa476040, type: 3}
+  - {fileID: 202386908, guid: d58be7dc310e5a44ba6c7523614c62f5, type: 3}
+  - {fileID: 202386908, guid: d58be7dc310e5a44ba6c7523614c62f5, type: 3}
+  - {fileID: 202386908, guid: d58be7dc310e5a44ba6c7523614c62f5, type: 3}
+  - {fileID: 202386908, guid: d58be7dc310e5a44ba6c7523614c62f5, type: 3}
+  populate_vines: 0
+  populate_rocks: 1
+  populate_structures: 1
+  terrainMovement: 0
+--- !u!220 &8208122797424810247
+LightProbeGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5064542964502505838}
+  m_Enabled: 0
+  m_SourcePositions:
+  - {x: 8.135053, y: 26.487288, z: 8.963204}
+  - {x: 8.785318, y: 27.44703, z: -8.358201}
+  - {x: 9.552612, y: 1.359787, z: 8.768298}
+  - {x: 9.928012, y: 1.4512749, z: -8.988058}
+  - {x: -8.551368, y: 25.587875, z: 8.540472}
+  - {x: -5.799875, y: 26.519268, z: -8.164725}
+  - {x: -7.8739595, y: 1.4512749, z: 8.336782}
+  - {x: -7.9133143, y: 1.4512749, z: -8.794017}
+  - {x: 0, y: 15.875336, z: 0}
+  m_Dering: 0
